@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+  
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    font-size: 0;
+}
+
+.article-left-1 {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 135px;
+}
+
+.article-left-2 {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 90px;
+}
+
+.article-right {
+    display: inline-block;
+    width: 420px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.lifestyle-title, .photodiary-title {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 70px 0px 96px 0;
+}
+
+.site-navigation-item1 {
+    margin-right: 120px;
+    margin-left: 165px;
+}
+
+.site-navigation-item2 {
+    margin-right: 100px;
+}
+
+.site-navigation-item3 {
+    margin-right: 95px;
+}
+
+.site-navigation a {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+.para-title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.button {
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+}
+
+article img {
+    margin-bottom: 29px;
+}
+
+h4, h5, p {
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-bottom: 35px;
+}
