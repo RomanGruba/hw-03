@@ -40,13 +40,20 @@ h4, h5, p {
     margin: 0;
 }
 
+header {
+    padding: 70px 0px 96px 164px
+}
+
 .site-navigation {
-    margin: 70px 0px 96px 164px;
+    margin: 0;
     padding: 0;
+    font-size: 0;
 }
 
 .site-navigation li {
     display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .site-navigation-item1 {
@@ -66,6 +73,7 @@ h4, h5, p {
     text-transform: uppercase;
     text-decoration: none;
     color: #626262;
+    display: block;
 }
 
 
@@ -76,6 +84,7 @@ h4, h5, p {
 
 section {
     font-size: 0;
+    padding-bottom: 20px;
 }
 
 .article-left-1 {
@@ -138,14 +147,13 @@ h5 {
 
 button {
     border: 1px solid;
-    margin: 0;
     padding: 24px 34px;
     font-size: 20px;
     line-height: 24px;
     background-color: #fff;
     color: #626262;
     cursor: pointer;
-    margin-left: 358px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
    
 } 
