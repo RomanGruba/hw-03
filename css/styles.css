@@ -41,7 +41,8 @@ h4, h5, p {
 }
 
 header {
-    padding: 70px 0px 96px 164px
+    padding: 70px 0px 96px 0px;
+    text-align: center;
 }
 
 .site-navigation {
